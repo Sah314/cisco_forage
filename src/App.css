@@ -2,9 +2,26 @@
   text-align: center;
 }
 
+.navbar-brand{
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-item{
+  background-color: aliceblue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.card{
+  display: inline-grid;
+  grid-template-columns:auto auto auto auto;
+  justify-content: space-between;
+  row-gap: 12px;
+}
+.card-body{
+  border: 12em #282c34;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -23,7 +40,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.first{
+  color:black;
+  background-image: url("../public/backgroundimg.png");
+  height:40em;
+  background-size:cover;
+  background-position:center ;
+  background-repeat: no-repeat;
+}
 .App-link {
   color: #61dafb;
 }
